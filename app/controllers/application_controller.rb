@@ -26,4 +26,10 @@ class ApplicationController < Sinatra::Base
     new_book.to_json
   end
 
+  post '/books/:book_id/reviews' do 
+    book = Book.find_by(id: params[:book_id])
+    new_review = book.reviews.create(text: params[:text])
+    new_review.to_json(include: :book)
+  end
+
 end
