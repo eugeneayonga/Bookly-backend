@@ -29,7 +29,7 @@ Welcome to Bookly API
 3. Open the browser and navigate to http://localhost:9292/books
 *****
 ## Live Link
-Or you can access the web application directly via this https://quotex-api.herokuapp.com/
+To be added
 *****
 
 ## Technologies Used
@@ -168,6 +168,7 @@ fetch("http://localhost:9292/test")
 ## Contact Information
 * Email : eugeneayonga@gmail.com
 *****
+
 ## [License](LICENSE.md)
 [MIT License]
 Copyright (c) 2022 Eugene Ayonga
