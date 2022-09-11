@@ -1,3 +1,44 @@
+# Bookly - backend api server
+
+### Author : Eugene Ayonga 11th September 2022
+****
+## Project Description
+Welcome to Bookly API
+
+********
+## SetUp Instruction
+### Requirements
+* [HTML](lang Url)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+
+
+### Getting Files
+* Fork the repo
+- Create a new branch in your terminal (git checkout -b improve-feature)
+- Install the prerequisites
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
+
+## How To Run It
+1. Run bundle install upon app start in the terminal.
+2. Run bundle exec rake server to start the server.
+3. Open the browser and navigate to http://localhost:9292/books
+*****
+## Live Link
+Or you can access the web application directly via this https://quotex-api.herokuapp.com/
+*****
+
+## Technologies Used
+1. Ruby
+2. ActiveRecord
+3. Sinatra
+
+
+*********************************************************************************************************************************************
 # Phase 3 Project Guidelines
 
 ## Learning Goals
@@ -122,3 +163,11 @@ fetch("http://localhost:9292/test")
 [dbdiagram.io]: https://dbdiagram.io/
 [postman download]: https://www.postman.com/downloads/
 [network tab]: https://developer.chrome.com/docs/devtools/network/
+
+
+## Contact Information
+* Email : eugeneayonga@gmail.com
+*****
+## [License](LICENSE.md)
+[MIT License]
+Copyright (c) 2022 Eugene Ayonga
