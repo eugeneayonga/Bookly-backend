@@ -2,7 +2,6 @@ puts "🌱 Seeding spices..."
 
 # Seed your database here
 
-# Create 10 books
 Book.create(title: "The Great Gatsby", author: "F. Scott Fitzgerald", likes: 0)
 Book.create(title: "The Catcher in the Rye", author: "J.D. Salinger", likes: 0)
 Book.create(title: "The Grapes of Wrath", author: "John Steinbeck", likes: 0)
